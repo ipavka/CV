@@ -13,7 +13,8 @@ export const Main = () => {
                     <h5>Prime Minister of the United Kingdom</h5>
                 </div>
                 <div className={s.photo}>
-                    <img src="../../../public/img/604_oooo.plus.png" alt=""/>
+                    <img src="../../../public/img/604_oooo.plus.png" alt="ava"/>
+                    <img src="./img/604_oooo.plus.png" alt="ava_1"/>
                 </div>
             </div>
 
