@@ -7,25 +7,25 @@ import {Skill} from "./skill/Skill";
 const skills = [
     {
         id: 1,
-        url: '/img/html.svg',
+        url: './img/html.svg',
         header: 'HTML',
         description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda consectetur dignissimos eligendi ipsa laboriosam nobis praesentium quos, sint tempore tenetur?'
     },
     {
         id: 2,
-        url: '/img/css.png',
+        url: './img/css.png',
         header: 'CSS',
         description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda consectetur dignissimos eligendi ipsa laboriosam nobis praesentium quos, sint tempore tenetur?'
     },
     {
         id: 3,
-        url: '/img/js.png',
+        url: './img/js.png',
         header: 'JS',
         description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda consectetur dignissimos eligendi ipsa laboriosam nobis praesentium quos, sint tempore tenetur?'
     },
     {
         id: 4,
-        url: '/img/react.png',
+        url: './img/react.png',
         header: 'React',
         description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda consectetur dignissimos eligendi ipsa laboriosam nobis praesentium quos, sint tempore tenetur?'
     },
@@ -40,8 +40,7 @@ export const Skills = () => {
                     return <Skill key={el.id}
                                   header={el.header}
                                   url={el.url}
-                                  description={el.description}
-                    />
+                                  description={el.description}/>
                 })}
             </div>
 

@@ -7,13 +7,13 @@ import {Project} from "./project/Project";
 const projects = [
     {
         id: 1,
-        url: '/',
+        url: '#',
         header: 'My Facebook',
         description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit'
     },
     {
         id: 2,
-        url: '/',
+        url: '#',
         header: 'My Twitter',
         description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit'
     },
