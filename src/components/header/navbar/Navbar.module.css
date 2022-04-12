@@ -1,5 +1,7 @@
 .mainNav {
     width: 300px;
+    flex-direction: row;
+    margin: 0 auto;
 }
 .mainNav a {
     text-decoration: none;

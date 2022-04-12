@@ -1,8 +1,10 @@
 .skillsContainer {
-    height: 100vh;
-    margin-bottom: 20px;
+    height: 720px;
 }
 
-.skillsContainer img {
-    height: 100px;
+@media (max-width: 700px) {
+    .skillsContainer {
+        height: 100%;
+    }
+
 }
