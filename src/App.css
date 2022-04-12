@@ -5,6 +5,7 @@
 
 .App {
     max-width: 800px;
+    width: 97%;
     margin: auto;
     display: flex;
     flex-direction: column;

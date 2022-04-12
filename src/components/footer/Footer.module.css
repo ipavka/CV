@@ -1,7 +1,27 @@
-.footer {
-    margin-bottom: 15px;
+.footerContainer {
+    height: 200px;
 }
 
-.FooterContainer {
-    
+.footerItems {
+    flex-direction: column;
+}
+
+.bioLink {
+    display: flex;
+    width: 70%;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    border: 1px solid #dad0e1;
+    border-radius: 10px;
+    box-shadow: 5px 20px 70px rgba(14, 19, 232, 0.2);
+}
+
+.bioLink a {
+    height: 40px;
+    width: 40px;
+    background-color: #c4a4e3;
+    border: 1px solid #dad0e1;
+    border-radius: 10px;
+    box-shadow: 5px 20px 70px rgba(14, 19, 232, 0.2);
 }

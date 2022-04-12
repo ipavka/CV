@@ -11,7 +11,7 @@ export const Skill: React.FC<SkillPropsType> = props => {
     return (
         <div className={s.skillBlock}>
             <div className={s.item}>
-                <img src={props.url} alt='foto'/>
+                <img src={props.url} alt='photo'/>
                 <h1>{props.header}</h1>
                 <span>{props.description}</span>
             </div>

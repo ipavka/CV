@@ -1,0 +1,27 @@
+.contactsContainer {
+    height: 200px;
+}
+
+.contactsItem {
+    width: 90%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    padding-top: 7px;
+}
+
+.contactsItem form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.contactsItem input {
+    margin-bottom: 10px;
+}
+
+.contactsItem button {
+    padding: 3px 10px;
+    border-radius: 7px;
+}
