@@ -9,7 +9,7 @@ import {Contractor} from "./components/contractor/Contractor";
 import {Contacts} from "./components/contacts/Contacts";
 
 
-export const App = () => {
+function App () {
     return (
         <div className="App">
             <Header/>
