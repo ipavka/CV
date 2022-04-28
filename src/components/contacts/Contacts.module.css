@@ -11,6 +11,11 @@
     padding-top: 7px;
 }
 
+.title::before {
+    width: 75px;
+    bottom: -1px;
+}
+
 .contactsItem form {
     display: flex;
     flex-direction: column;

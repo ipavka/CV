@@ -10,6 +10,11 @@
     padding-bottom: 7px;
 }
 
+.title::before {
+    width: 152px;
+    bottom: -4px;
+}
+
 .contractorItem button {
     padding: 3px 10px;
     border-radius: 7px;

@@ -6,6 +6,11 @@
     flex-direction: column;
 }
 
+.footerItems .title::before {
+    width: 120px;
+    bottom: -2px;
+}
+
 .bioLink {
     display: flex;
     width: 70%;
