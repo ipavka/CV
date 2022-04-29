@@ -1,17 +1,15 @@
 import React from 'react';
 import sContainer from "../../common/styles/Container.module.css";
 import sItem from '../../common/styles/Item.module.css';
-import s from "../contacts/Contacts.module.css";
-import sTitle from "../../common/styles/Title.module.css";
+import s from '../contacts/Contacts.module.css';
+import {TitleCustom} from '../../common/com-components/TitleCustom';
 
 export const Contacts = () => {
     return (
         <div className={`${sContainer.container} ${s.contactsContainer}`}>
             <div className={`${sItem.item} ${s.contactsItem}`}>
 
-                <div className={`${sTitle.titleStyle} ${s.title}`}>
-                    <h2>Contacts</h2>
-                </div>
+                <TitleCustom title={'Contacts'} hLevel={2} costumeStyle={s.title}/>
 
                 <form>
                     <input placeholder={'name...'}/>

@@ -3,7 +3,7 @@ import s from './Projects.module.css';
 import sContainer from '../../common/styles/Container.module.css';
 import sItem from '../../common/styles/Item.module.css';
 import {Project} from "./project/Project";
-import sTitle from "../../common/styles/Title.module.css";
+import {TitleCustom} from "../../common/com-components/TitleCustom";
 
 const projects = [
     {
@@ -24,10 +24,7 @@ const projects = [
 export const Projects = () => {
     return (
         <div className={`${sContainer.container} ${s.projectContainer}`}>
-
-            <div className={`${sTitle.titleStyle} ${s.title}`}>
-                <h1>My Project</h1>
-            </div>
+            <TitleCustom title={'My Project'} costumeStyle={s.title}/>
 
             <div className={sItem.item}>
                 {projects.map(el => {

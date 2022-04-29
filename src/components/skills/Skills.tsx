@@ -2,8 +2,8 @@ import React from 'react';
 import s from './Skills.module.css';
 import sContainer from '../../common/styles/Container.module.css';
 import sItem from '../../common/styles/Item.module.css';
-import sTitle from '../../common/styles/Title.module.css'
-import {Skill} from "./skill/Skill";
+import {Skill} from './skill/Skill';
+import {TitleCustom} from '../../common/com-components/TitleCustom';
 
 const skills = [
     {
@@ -35,9 +35,8 @@ const skills = [
 export const Skills = () => {
     return (
         <div className={`${sContainer.container} ${s.skillsContainer}`}>
-            <div className={sTitle.titleStyle}>
-                <h1>Skills</h1>
-            </div>
+
+            <TitleCustom title={'Skills'}/>
 
             <div className={sItem.item}>
                 {skills.map(el => {
