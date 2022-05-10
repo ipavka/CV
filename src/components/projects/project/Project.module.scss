@@ -1,0 +1,23 @@
+@import '../../../common/styles/sass/variables';
+
+.projectBlock {
+    border: $border;
+    border-radius: 10px;
+    box-shadow: $boxShadowBlock;
+    width: 300px;
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 10px;
+    .urlProjectContent {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 150px;
+    }
+    .projectBlock h2 {
+        margin-bottom: 10px;
+    }
+}
+
+
+

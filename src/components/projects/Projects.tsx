@@ -1,6 +1,6 @@
 import React from 'react';
 import s from './Projects.module.css';
-import sContainer from '../../common/styles/Container.module.css';
+import sContainer from '../../common/styles/Container.module.scss';
 import sItem from '../../common/styles/Item.module.css';
 import {Project} from "./project/Project";
 import {TitleCustom} from "../../common/com-components/TitleCustom";
