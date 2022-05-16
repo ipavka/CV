@@ -13,14 +13,14 @@ const projects = [
         url: todoImage,
         header: 'ToDo List',
         description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit',
-        todoList: {backgroundImage: `url(${todoImage})`}
+        backImg: {backgroundImage: `url(${todoImage})`}
     },
     {
         id: 2,
         url: socialNet,
         header: 'Social Network',
         description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit',
-        todoList: {backgroundImage: `url(${socialNet})`}
+        backImg: {backgroundImage: `url(${socialNet})`}
     },
 
 ]
@@ -35,7 +35,7 @@ export const Projects = () => {
                     return <Project key={el.id}
                                     url={el.url}
                                     header={el.header}
-                                    img={el.todoList}
+                                    backImg={el.backImg}
                                     description={el.description}/>
                 })}
             </div>

@@ -16,11 +16,24 @@
         background-size: cover;
         margin-bottom: 10px;
         border-radius: 10px;
+        position: relative;
+        &::before {
+            position: absolute;
+            opacity: 0.2;
+            border-radius: 10px;
+            content: '';
+            background-color: black;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+        }
         .viewBtn {
-            background-color: #e6ddef;
+            background-color: #a793b4;
             border-radius: 15px;
-            padding: 10px 20px;
+            padding: 5px 15px;;
             text-decoration: none;
+            position: relative;
         }
     }
     .projectBlock h2 {

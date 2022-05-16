@@ -5,15 +5,13 @@ type SkillPropsType = {
     id?: number
     url: string
     header: string
-    description: string
 }
 export const Skill: React.FC<SkillPropsType> = props => {
     return (
         <div className={s.skillBlock}>
             <div className={s.item}>
                 <img src={props.url} alt='photo'/>
-                <h1>{props.header}</h1>
-                <span>{props.description}</span>
+                <h3>{props.header}</h3>
             </div>
 
         </div>

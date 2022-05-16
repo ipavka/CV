@@ -6,6 +6,9 @@
     width: 118px;
     bottom: -5px;
 }
+.title {
+    margin-bottom: 15px;
+}
 
 .projectContainer h1 {
     margin-top: 15px;

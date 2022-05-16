@@ -1,8 +1,8 @@
 .skillBlock {
     border: 1px solid #dad0e1;
     border-radius: 10px;
-    box-shadow: 5px 20px 70px rgba(14, 19, 232, 0.2);
-    width: 300px;
+    box-shadow: 5px 8px 110px rgba(14, 19, 232, 0.15);
+    width: 150px;
     margin-bottom: 20px;
 }
 
@@ -12,10 +12,12 @@
     align-items: center;
     text-align: center;
     padding: 10px;
+    background: #f1e9ca;
+    border-radius: 10px;
 }
 
-.item h1 {
-    margin-bottom: 10px;
+.item h3 {
+    margin-top: 10px;
 }
 
 .skillBlock img {
