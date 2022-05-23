@@ -1,7 +1,7 @@
 import React from 'react';
-import s from './Footer.module.scss';
 import sContainer from '../../common/styles/Container.module.scss';
 import sItem from '../../common/styles/Item.module.css';
+import s from './Footer.module.scss';
 import {TitleCustom} from "../../common/com-components/TitleCustom";
 
 export const Footer = () => {
@@ -15,7 +15,6 @@ export const Footer = () => {
                     <a href="#"></a>
                     <a href="#"></a>
                 </div>
-                <span>© 2022 All rights reserved</span>
             </div>
         </div>
     );

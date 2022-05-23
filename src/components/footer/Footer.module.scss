@@ -2,6 +2,7 @@
 
 .footerContainer {
     height: 200px;
+    margin-bottom: 100px;
     .footerItems {
         flex-direction: column;
         .title::before {
@@ -29,15 +30,20 @@
     }
 }
 
+
+//.footerContainer {
+//    height: 200px;
+//    margin-bottom: 100px;
+//}
 //.footerItems {
 //    flex-direction: column;
 //}
-
+//
 //.footerItems .title::before {
 //    width: 120px;
 //    bottom: -2px;
 //}
-
+//
 //.bioLink {
 //    display: flex;
 //    width: 70%;
@@ -48,7 +54,7 @@
 //    border-radius: 10px;
 //    box-shadow: 5px 20px 70px rgba(14, 19, 232, 0.2);
 //}
-
+//
 //.bioLink a {
 //    height: 40px;
 //    width: 40px;

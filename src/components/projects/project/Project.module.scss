@@ -1,44 +1,76 @@
 @import '../../../common/styles/sass/variables';
 
 .projectBlock {
-    border: $border;
+  border: $border;
+  border-radius: 10px;
+  //box-shadow: $boxShadowBlock;
+  box-shadow: 5px 20px 70px rgb(14 19 232 / 10%);
+  background: linear-gradient(0deg, #c9c6c6, #f3efef, #f5ecec);
+  width: 300px;
+  margin-bottom: 20px;
+  text-align: center;
+  padding: 10px;
+  .linkBlock {
+    display: flex;
+    height: 100%;
+    justify-content: space-evenly;
+    margin-top: 5px;
+    & img {
+      padding: 5px;
+      height: 25px;
+      cursor: pointer;
+      transition: transform .2s;
+    }
+    & img:hover {
+      transform: scale(1.3);
+    }
+  }
+
+  .urlProjectContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 150px;
+    background-size: cover;
+    margin-bottom: 10px;
     border-radius: 10px;
-    box-shadow: $boxShadowBlock;
-    width: 300px;
-    margin-bottom: 20px;
-    text-align: center;
-    padding: 10px;
-    .urlProjectContent {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        min-height: 150px;
-        background-size: cover;
-        margin-bottom: 10px;
-        border-radius: 10px;
-        position: relative;
-        &::before {
-            position: absolute;
-            opacity: 0.2;
-            border-radius: 10px;
-            content: '';
-            background-color: black;
-            top: 0;
-            bottom: 0;
-            left: 0;
-            right: 0;
-        }
-        .viewBtn {
-            background-color: #a793b4;
-            border-radius: 15px;
-            padding: 5px 15px;;
-            text-decoration: none;
-            position: relative;
-        }
+    position: relative;
+
+    &::before {
+      position: absolute;
+      opacity: 0.2;
+      border-radius: 10px;
+      content: '';
+      background-color: black;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
     }
-    .projectBlock h2 {
-        margin-bottom: 10px;
+
+    .viewBtn {
+      background: linear-gradient(0deg, #c9c6c6, #f3efef, #f5ecec);
+      box-shadow: 5px 20px 70px rgb(14 19 232 / 20%);
+      border-radius: 15px;
+      padding: 5px 15px;;
+      text-decoration: none;
+      position: relative;
+
+      &:hover {
+        background: #c4a4e3;
+      }
     }
+
+  }
+  & h2 {
+    margin-bottom: 5px;
+  }
+  .title::before {
+    bottom: -2px;
+  }
+  .title {
+    margin-bottom: 11px;
+  }
 }
 
 

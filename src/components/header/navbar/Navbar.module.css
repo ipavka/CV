@@ -1,12 +1,23 @@
-.mainNav {
-    width: 300px;
+.navMain {
+    display: flex;
+    justify-content: space-evenly;
+    width: 90%;
     flex-direction: row;
-    margin: 0 auto;
-    /*position: fixed;*/
-    /*bottom: 0;*/
+    margin-bottom: 0;
 }
-.mainNav a {
-    text-decoration: none;
-    /*font-family: 'Ubuntu', sans-serif;*/
+
+.navItem {
+    margin-top: 5px;
+    border: 1px solid #dad0e1;
+    border-radius: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-weight: bold;
+    box-shadow: 5px 20px 70px rgb(14 19 232 / 10%);
+    background: linear-gradient(0deg,#c9c6c6,#f3efef,#f5ecec);
+}
+
+.navItem:hover {
+    background: #c4a4e3;
 }
 

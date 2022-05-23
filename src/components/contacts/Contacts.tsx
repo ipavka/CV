@@ -6,7 +6,7 @@ import {TitleCustom} from '../../common/com-components/TitleCustom';
 
 export const Contacts = () => {
     return (
-        <div className={`${sContainer.container} ${s.contactsContainer}`}>
+        <div id={'Contacts'} className={`${sContainer.container} ${s.contactsContainer}`}>
             <div className={`${sItem.item} ${s.contactsItem}`}>
 
                 <TitleCustom title={'Contacts'} hLevel={2} costumeStyle={s.title}/>

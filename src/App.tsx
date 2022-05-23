@@ -5,7 +5,6 @@ import {Footer} from "./components/footer/Footer";
 import {Main} from "./components/main/Main";
 import {Skills} from "./components/skills/Skills";
 import {Projects} from "./components/projects/Projects";
-import {Contractor} from "./components/contractor/Contractor";
 import {Contacts} from "./components/contacts/Contacts";
 
 
@@ -16,7 +15,6 @@ function App () {
             <Main/>
             <Skills/>
             <Projects/>
-            <Contractor/>
             <Contacts/>
             <Footer/>
         </div>

@@ -1,7 +1,7 @@
 import React from 'react';
-import s from './Skills.module.scss';
 import sContainer from '../../common/styles/Container.module.scss';
 import sItem from '../../common/styles/Item.module.css';
+import s from './Skills.module.scss';
 import {Skill} from './skill/Skill';
 import {TitleCustom} from '../../common/com-components/TitleCustom';
 
@@ -55,7 +55,7 @@ const skills = [
 
 export const Skills = () => {
     return (
-        <div className={`${sContainer.container} ${s.skillsContainer}`}>
+        <div id={'Skills'} className={`${sContainer.container} ${s.skillsContainer}`}>
 
             <TitleCustom title={'Skills'} costumeStyle={s.skillTitle}/>
 

@@ -1,4 +1,11 @@
 .mainHeader {
-    height: 80px;
-    margin-top: 5px;
+    height: 60px;
+    /*margin-top: 5px;*/
+    width: 97%;
+    margin-bottom: 0;
+    bottom: 0;
+    position: fixed;
+    max-width: 800px;
+    z-index: 100;
+    border-radius: 10px 10px 0 0;
 }
