@@ -3,7 +3,7 @@ import sContainer from '../../common/styles/Container.module.scss';
 import sItem from '../../common/styles/Item.module.css';
 import s from './Projects.module.css';
 import {Project} from "./project/Project";
-import {TitleCustom} from "../../common/com-components/TitleCustom";
+import {TitleCustom} from "../../common/com-components/TitleCustom/TitleCustom";
 import todoImage from '../../assets/image/todo_list.png'
 import socialNet from '../../assets/image/social_network.png'
 

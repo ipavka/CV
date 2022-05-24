@@ -2,7 +2,7 @@ import React from 'react';
 import sContainer from '../../common/styles/Container.module.scss';
 import sItem from '../../common/styles/Item.module.css';
 import s from './Footer.module.scss';
-import {TitleCustom} from "../../common/com-components/TitleCustom";
+import {TitleCustom} from "../../common/com-components/TitleCustom/TitleCustom";
 
 export const Footer = () => {
     return (

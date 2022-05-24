@@ -1,6 +1,7 @@
 import React from 'react';
 import s from './Main.module.scss';
 import sContainer from '../../common/styles/Container.module.scss';
+import {GetViewport} from "../../common/com-components/GetViewport/GetViewport";
 
 
 export const Main = () => {
@@ -16,7 +17,7 @@ export const Main = () => {
                     <img src="/CV/img/mainLogo.png" alt="ava_1"/>
                 </div>
             </div>
-
+            <GetViewport/>
         </div>
     );
 };

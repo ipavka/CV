@@ -1,6 +1,6 @@
 import React from 'react';
 import s from './Project.module.scss';
-import {TitleCustom} from "../../../common/com-components/TitleCustom";
+import {TitleCustom} from "../../../common/com-components/TitleCustom/TitleCustom";
 
 type ProjectPropsType = {
     id?: number

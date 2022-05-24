@@ -3,7 +3,7 @@ import sContainer from '../../common/styles/Container.module.scss';
 import sItem from '../../common/styles/Item.module.css';
 import s from './Skills.module.scss';
 import {Skill} from './skill/Skill';
-import {TitleCustom} from '../../common/com-components/TitleCustom';
+import {TitleCustom} from '../../common/com-components/TitleCustom/TitleCustom';
 
 const skills = [
     {
