@@ -1,7 +1,6 @@
 import React, {MouseEvent} from 'react';
-import sContainer from '../../../common/styles/Container.module.scss';
-import s from './Navbar.module.css';
 import scrollIntoView from "scroll-into-view-if-needed";
+import s from './Navbar.module.css';
 
 export const Navbar = () => {
 

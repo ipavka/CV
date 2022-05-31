@@ -59,7 +59,8 @@ export const Skills = () => {
 
             <TitleCustom title={'Skills'} costumeStyle={s.skillTitle}/>
 
-            <div className={`${sItem.item} ${s.skillsItem}`}>
+            {/*<div className={`${sItem.item} ${s.skillsItem}`}>*/}
+            <div className={`${s.skillsItem}`}>
                 {skills.map(el => {
                     return <Skill key={el.id}
                                   header={el.header}

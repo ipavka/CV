@@ -8,17 +8,17 @@ import {Projects} from "./components/projects/Projects";
 import {Contacts} from "./components/contacts/Contacts";
 
 
-function App () {
-    return (
-        <div className="App">
-            <Header/>
-            <Main/>
-            <Skills/>
-            <Projects/>
-            <Contacts/>
-            <Footer/>
-        </div>
-    );
+function App() {
+  return (
+    <div className="App">
+      <Header/>
+      <Main/>
+      <Projects/>
+      <Skills/>
+      <Contacts/>
+      <Footer/>
+    </div>
+  );
 }
 
 export default App;
