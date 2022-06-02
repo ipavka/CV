@@ -1,105 +1,70 @@
 @import '../../common/styles/sass/variables';
 
 .mainBlock {
+  flex-direction: row;
   justify-content: space-around;
   text-align: center;
-  //height: 500px;
-  width: 40%;
   margin-top: 15px;
   padding: 20px 0;
   color: var(--color-paragraph);
-  .bioLink {
-    display: flex;
+  @media (max-width: 600px) {
     flex-direction: column;
-    width: 70%;
-    align-items: flex-start;
-    height: 100%;
-    gap: 10px;
-    border-top: 1px solid var(--color-border);
-    padding-top: 20px;
-    //padding-left: 20px;
-    .bioItem {
-      display: flex;
-      align-items: center;
-      gap: 20px;
-      & a {
-        height: 40px;
-        width: 40px;
-        background-color: var(--color-accent);
-        border: 1px solid var(--color-border);
-        border-radius: 10px;
-        box-shadow: var(--box-shadow-80);
-      }
-    }
+    gap: 25px;
   }
-
   .container {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    margin-bottom: 20px;
-    //height: 100%;
-    //width: 80%;
-    @media (max-width: 700px) {
-      flex-direction: column;
-    }
-
-    .text {
-      color: var(--color-heading);
-
-      & h4 {
-        margin-top: 10px;
-        border-radius: 15px;
-        //border: 1px solid var(--color-border);
-        box-shadow: var(--box-shadow-80);
-        background: var(--color-gradient-gray);
-        padding: 10px 15px;
-      }
-    }
-
     .photo {
       border: var(--color-border);
       border-radius: var(--radius-32);
       background: var(--color-gradient-gray);
-      height: 200px;
-      width: 200px;
-      margin-bottom: 20px;
-
+      height: 185px;
+      width: 185px;
       & img {
-        margin-top: 23px;
+        margin-top: 17px;
         height: 150px;
       }
     }
   }
+  .text {
+    color: var(--color-heading);
+    & h4 {
+      margin-top: 10px;
+      border-radius: var(--radius-12);
+      font-weight: 500;
+      line-height: 100%;
+      font-size: 18px;
+      box-shadow: var(--box-shadow-80);
+      background: var(--color-gradient-gray);
+      padding: 8px 15px;
+    }
+  }
+  .bioLink {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 100%;
+    gap: 10px;
+    @media (max-width: 600px) {
+      display: none;
+    }
+    .bioItem {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      & img {
+        height: 40px;
+        width: 40px;
+      }
+      & a {
+        text-decoration: none;
+        color: var(--color-paragraph);;
+      }
+    }
+  }
+
+
 }
 
-//.container {
-//    display: flex;
-//    justify-content: space-evenly;
-//    align-items: center;
-//    height: 100%;
-//    width: 80%;
-//}
-
-//.text {
-//    border: 1px solid #dad0e1;
-//    border-radius: 15px;
-//    box-shadow: 5px 20px 70px rgba(14, 19, 232, 0.2);
-//    padding: 5px;
-//}
-
-//.photo {
-//
-//}
-//
-//.photo img {
-//    height: 200px;
-//}
-
-//@media (max-width: 700px) {
-//    .container {
-//        flex-direction: column;
-//    }
-//
-//}

@@ -1,8 +1,8 @@
 .skillBlock {
-    border: 1px solid #dad0e1;
-    border-radius: 10px;
-    box-shadow: 5px 8px 110px rgba(14, 19, 232, 0.10);
-    width: 110px;
+    /*border: 1px solid #dad0e1;*/
+    /*border-radius: 10px;*/
+    /*box-shadow: 5px 8px 110px rgba(14, 19, 232, 0.10);*/
+    width: 72px;
     margin-bottom: 20px;
 }
 
@@ -12,8 +12,8 @@
     align-items: center;
     text-align: center;
     padding: 10px;
-    /*background: #f1e9ca;*/
-    background: linear-gradient(0deg,#bbb6b6,#f3efef,#f5ecec);
+    background: var(--color-surface-2);
+    /*background: linear-gradient(0deg,#bbb6b6,#f3efef,#f5ecec);*/
     /*background: linear-gradient(0deg,#a7a4a4,#dadada,#dfdfdf);*/
     border-radius: 10px;
 }

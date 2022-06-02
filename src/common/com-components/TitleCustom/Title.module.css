@@ -1,11 +1,12 @@
 .titleStyle {
     position: relative;
+    color: var(--color-heading);
 }
 
 .titleStyle::before {
     content: "";
     position: absolute;
-    background: #9423b9;
+    background: var(--color-accent);
     width: 55px;
     height: 2px;
     left: 50%;
