@@ -6,6 +6,7 @@ import {Main} from "./components/main/Main";
 import {Skills} from "./components/skills/Skills";
 import {Projects} from "./components/projects/Projects";
 import {Contacts} from "./components/contacts/Contacts";
+import {UnionMain} from "./components/UnionMain/UnionMain";
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
     <div className="App">
       <Header/>
       <Main/>
+      <UnionMain/>
       <Projects/>
       <Skills/>
       <Contacts/>
