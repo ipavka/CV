@@ -2,11 +2,13 @@
 @import '../../../common/styles/sass/mixins';
 
 .projectBlock {
-  border: $border;
+  border: var(--color-border);
   border-radius: 10px;
   //box-shadow: $boxShadowBlock;
-  box-shadow: 5px 20px 70px rgb(14 19 232 / 10%);
-  background: linear-gradient(0deg, #c9c6c6, #f3efef, #f5ecec);
+  //box-shadow: 5px 20px 70px rgb(14 19 232 / 10%);
+  background: var(--color-gradient-gray);
+  //background: linear-gradient(0deg, #c9c6c6, #f3efef, #f5ecec);
+  color: var(--color-paragraph);
   width: 300px;
   margin-bottom: 20px;
   text-align: center;

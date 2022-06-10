@@ -1,0 +1,25 @@
+.navMain {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  flex-direction: column;
+  width: 100%;
+  color: wheat;
+}
+
+.navContent {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+  background-color: var(--color-surface-2);
+  width: 60%;
+  padding: 10px 0;
+  border: 1px solid var(--color-border);
+  border-radius: 0 16px 0 30px;
+}
+
+.navItem {
+
+}
+

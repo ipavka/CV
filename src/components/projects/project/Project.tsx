@@ -21,10 +21,10 @@ export const Project: React.FC<ProjectPropsType> = props => {
             <span>{props.description}</span>
             <div className={s.linkBlock}>
                 <a href={props.gitHubUrl} target="_blank">
-                    <img src='/CV/img/github.png' alt='github'/>
+                    <img src='/CV/img/github_2.png' alt='github'/>
                 </a>
                 <a href={props.projectLinkUrl} target="_blank">
-                    <img src='/CV/img/link.png' alt='link'/>
+                    <img src='/CV/img/link_2.png' alt='link'/>
                 </a>
             </div>
         </div>

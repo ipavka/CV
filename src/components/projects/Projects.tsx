@@ -1,7 +1,6 @@
 import React from 'react';
-import sContainer from '../../common/styles/Container.module.scss';
 import sItem from '../../common/styles/Item.module.css';
-import s from './Projects.module.css';
+import s from './Projects.module.scss';
 import {Project} from "./project/Project";
 import {TitleCustom} from "../../common/com-components/TitleCustom/TitleCustom";
 import todoImage from '../../assets/image/todo_list.png'
@@ -31,7 +30,7 @@ const projects = [
 
 export const Projects = () => {
     return (
-        <div id={"Project"} className={`${sContainer.container} ${s.projectContainer}`}>
+        <div id={"Project"} className={s.mainProjects}>
             <TitleCustom title={'My Project'} costumeStyle={s.title}/>
 
             <div className={sItem.item}>
