@@ -1,6 +1,4 @@
 import React from 'react';
-import sContainer from '../../common/styles/Container.module.scss';
-import sItem from '../../common/styles/Item.module.css';
 import s from './Skills.module.scss';
 import {Skill} from './skill/Skill';
 import {TitleCustom} from '../../common/com-components/TitleCustom/TitleCustom';
@@ -55,11 +53,8 @@ const skills = [
 
 export const Skills = () => {
     return (
-        <div id={'Skills'} className={`${sContainer.container} ${s.skillsContainer}`}>
-
+        <div id={'Skills'} className={s.skillsContainer}>
             <TitleCustom title={'Skills'} costumeStyle={s.skillTitle}/>
-
-            {/*<div className={`${sItem.item} ${s.skillsItem}`}>*/}
             <div className={`${s.skillsItem}`}>
                 {skills.map(el => {
                     return <Skill key={el.id}
@@ -67,7 +62,6 @@ export const Skills = () => {
                                   url={el.url}/>
                 })}
             </div>
-
         </div>
     );
 };

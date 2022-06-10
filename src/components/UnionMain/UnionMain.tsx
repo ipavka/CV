@@ -1,13 +1,13 @@
 import React from 'react';
 import s from "./UnionMain.module.scss";
 import {NavMenu} from "./NavMenu/NavMenu";
-import {Projects} from "../projects/Projects";
+import {Pages} from "./Pages";
 
 export const UnionMain = () => {
   return (
     <div className={s.mainBlock}>
       <NavMenu/>
-      <Projects/>
+      <Pages/>
     </div>
   );
 };

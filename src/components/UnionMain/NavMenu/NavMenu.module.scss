@@ -4,7 +4,7 @@
   align-items: flex-end;
   flex-direction: column;
   width: 100%;
-  color: wheat;
+  color: var(--color-paragraph);
 }
 
 .navContent {
@@ -19,7 +19,13 @@
   border-radius: 0 16px 0 30px;
 }
 
-.navItem {
 
+.navItem {
+  color: var(--color-paragraph);
+  text-decoration: none;
+}
+
+.active {
+  color: var(--color-accent);
 }
 
