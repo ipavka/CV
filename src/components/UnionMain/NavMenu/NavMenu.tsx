@@ -30,7 +30,9 @@ export const NavMenu = () => {
         </div>
 
         <div>
-          <span>Contacts</span>
+          <NavLink to={PATH.CONTACTS} className={(NavData) => getNavLinkStyle(NavData)}>
+            <span>Contacts</span>
+          </NavLink>
         </div>
 
       </div>
