@@ -1,13 +1,19 @@
+.inputMain {
+  display: flex;
+  width: 50%;
+}
+
 .superInput {
+  width: 100%;
   margin: 5px 0;
-  padding: 5px;
-  background: #f6f6f6;
-  border: 1px solid #9f9f9f;
-  border-radius: 5px;
+  padding: 15px 22px;
+  background-color: transparent;
+  border: 1px solid var(--color-border);
+  border-radius: 14px;
 }
 
 .superInput:focus {
-  background: white;
+  background-color: var(--color-surface-1);
   box-shadow: 0 0 10px #9f9f9f;
   outline: none;
 }

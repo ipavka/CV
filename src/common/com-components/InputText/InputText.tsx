@@ -34,7 +34,7 @@ export const InputText: React.FC<InputTextPropsType> = (
   const finalInputClassName = `${s.superInput} ${error ? s.errorInput : ""} ${className ? className : ""}`;
 
   return (
-    <>
+    <div className={s.inputMain}>
       <input
         type={type}
         onChange={onChangeCallback}
@@ -44,6 +44,6 @@ export const InputText: React.FC<InputTextPropsType> = (
         {...restProps}
       />
       {error && <span className={finalSpanClassName}>{error}</span>}
-    </>
+    </div>
   );
 };
