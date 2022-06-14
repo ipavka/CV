@@ -4,7 +4,7 @@ const formspree = axios.create({
   baseURL: "https://formspree.io/f/",
 })
 const phone = axios.create({
-  baseURL: "http://num.voxlink.ru/",
+  baseURL: "https://num.voxlink.ru/",
 })
 
 
