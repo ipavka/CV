@@ -29,3 +29,18 @@
   color: var(--color-accent);
 }
 
+@media (max-width: 500px) {
+  .navContent {
+    border-radius: 15px 15px 0 0;
+    width: 100%;
+  }
+  .navMain {
+    justify-content: initial;
+    align-items: initial;
+    flex-direction: initial;
+    display: flex;
+    width: 100%;
+    color: var(--color-paragraph);
+  }
+}
+

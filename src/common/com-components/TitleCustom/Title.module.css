@@ -14,3 +14,15 @@
     border-radius: 10px;
     transform: translate(-50%, 50%);
 }
+
+@media (max-width: 500px) {
+    .titleStyle {
+        display: none;
+    }
+}
+
+@media (max-width: 600px) {
+    .titleStyle {
+        font-size: 12px;
+    }
+}

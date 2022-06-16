@@ -31,7 +31,7 @@ const projects = [
 export const Projects = () => {
     return (
         <div id={"Project"} className={s.mainProjects}>
-            <TitleCustom title={'My Project'} costumeStyle={s.title}/>
+            <TitleCustom title={'My Projects'} costumeStyle={s.title}/>
 
             <div className={sItem.item}>
                 {projects.map(el => {
