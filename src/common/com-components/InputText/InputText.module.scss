@@ -1,6 +1,6 @@
 .inputMain {
   display: flex;
-  width: 50%;
+  width: 100%;
 }
 
 .superInput {
@@ -12,9 +12,14 @@
   border-radius: 14px;
 }
 
+input:-webkit-autofill,
+input:-webkit-autofill:focus {
+  transition: background-color 600000s 0s, color 600000s 0s;
+}
+
 .superInput:focus {
   background-color: var(--color-surface-1);
-  box-shadow: 0 0 10px #9f9f9f;
+  box-shadow: 0 0 10px #545454;
   outline: none;
 }
 

@@ -9,7 +9,7 @@ export const Footer = () => {
     return (
         <div className={`${sContainer.container} ${s.footerContainer}`}>
             <div className={`${sItem.item} ${s.footerItems}`}>
-                <TitleCustom title={'Pavel Kopaev'} hLevel={2} costumeStyle={s.title}/>
+                <TitleCustom title={'Pavel'} hLevel={2} costumeStyle={s.title}/>
                 <div className={s.bioLink}>
                     <a href="#" style={{backgroundImage: `url(${img1})`}}/>
                     <a href="#"/>

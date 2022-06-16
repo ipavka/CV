@@ -22,7 +22,7 @@ export const setFormStatusAC = (status: boolean) => {
 // Thunk
 export const sendDataTC = (number: string): AppThunk => dispatch => {
   dispatch(setFormStatusAC(true));
-  formsAPI.checkedPhoneNumber(number)
+  formsAPI.sendMessage()
     .then(res => {
       console.log(res)
   }).catch((e) => {
