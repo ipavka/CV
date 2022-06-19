@@ -3,8 +3,10 @@ import {Skills} from "../skills/Skills";
 import {Projects} from "../projects/Projects";
 import {Error404} from "../Error404/Error404";
 import {Contacts} from "../contacts/Contacts";
+import {About} from "../about/About";
 
 export const PATH = {
+  ABOUT: "/about",
   PROJECTS: "/projects",
   SKILLS: "/skills",
   CONTACTS: "/contacts",
@@ -16,6 +18,7 @@ export const Pages = () => {
     <Routes>
       <Route path={"/"} element={<Navigate to={PATH.PROJECTS}/>}/>
       <Route path={PATH.SKILLS} element={<Skills/>}/>
+      <Route path={PATH.ABOUT} element={<About/>}/>
       <Route path={PATH.PROJECTS} element={<Projects/>}/>
       <Route path={PATH.CONTACTS} element={<Contacts/>}/>
       <Route path={PATH.ERROR404} element={<Error404/>}/>

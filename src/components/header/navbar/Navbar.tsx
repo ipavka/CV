@@ -2,6 +2,8 @@ import React, {MouseEvent} from 'react';
 import scrollIntoView from "scroll-into-view-if-needed";
 import s from './Navbar.module.css';
 
+// useless
+
 export const Navbar = () => {
 
     const scrollHandler = (el: MouseEvent<HTMLDivElement>) => {

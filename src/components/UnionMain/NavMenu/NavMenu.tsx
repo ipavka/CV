@@ -14,7 +14,9 @@ export const NavMenu = () => {
       <div className={s.navContent}>
 
         <div>
-          <span>Main</span>
+          <NavLink to={PATH.ABOUT} className={(NavData) => getNavLinkStyle(NavData)}>
+            <span>About</span>
+          </NavLink>
         </div>
 
         <div>
