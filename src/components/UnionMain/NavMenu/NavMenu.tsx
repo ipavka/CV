@@ -13,11 +13,11 @@ export const NavMenu = () => {
     <div className={s.navMain}>
       <div className={s.navContent}>
 
-        <div>
-          <NavLink to={PATH.ABOUT} className={(NavData) => getNavLinkStyle(NavData)}>
-            <span>About</span>
-          </NavLink>
-        </div>
+        {/*<div>*/}
+        {/*  <NavLink to={PATH.ABOUT} className={(NavData) => getNavLinkStyle(NavData)}>*/}
+        {/*    <span>About</span>*/}
+        {/*  </NavLink>*/}
+        {/*</div>*/}
 
         <div>
           <NavLink to={PATH.SKILLS} className={(NavData) => getNavLinkStyle(NavData)}>

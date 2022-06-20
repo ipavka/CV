@@ -1,6 +1,7 @@
 import React from 'react';
 import s from './Main.module.scss';
 import sContainer from '../../common/styles/Container.module.scss';
+import {TitleCustom} from "../../common/com-components/TitleCustom/TitleCustom";
 
 
 export const Main = () => {
@@ -10,11 +11,12 @@ export const Main = () => {
         <div className={s.photo}>
           <img src="/CV/img/mainLogo.png" alt="ava_1"/>
         </div>
+        <TitleCustom title={'about me'} hLevel={4} costumeStyle={s.mainAboutTitle}/>
       </div>
 
       <div className={s.text}>
         <h3>Pavel</h3>
-        <h4>Frontend Developer</h4>
+        <h4>Frontend developer</h4>
       </div>
 
       <div className={s.bioLink}>
@@ -35,6 +37,15 @@ export const Main = () => {
         {/*  <a href="#" target="_blank">8-978-999-99-99</a>*/}
         {/*</div>*/}
 
+      </div>
+      <div className={s.mainAboutContent}>
+        {/*<TitleCustom title={'about me'} hLevel={4} costumeStyle={s.mainAboutTitle}/>*/}
+        <h3>
+          I am a Frontend developer. I have experience developing a SPA application with a dynamic interface using
+          React, TypeScript, JavaScript, Redux. I would like to find a permanent job in a company with a modern approach
+          to development and a friendly team. There is also an interest in studying Backend technologies in languages
+          such as node.js, python
+        </h3>
       </div>
     </div>
   );
