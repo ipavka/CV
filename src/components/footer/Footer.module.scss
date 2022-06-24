@@ -3,6 +3,7 @@
 .footerContainer {
   height: 200px;
   margin-bottom: 100px;
+  justify-content: space-evenly;
 
   .footerItems {
     flex-direction: column;
@@ -20,19 +21,15 @@
 
     .bioLink {
       display: flex;
-      width: 70%;
+      width: 40%;
       justify-content: space-around;
       align-items: center;
       height: 50px;
-      //border: $border;
-      //border-radius: 10px;
       a {
         height: 40px;
         width: 40px;
-        //background-color: #c4a4e3;
         background-size: cover;
-        //border: $border;
-        //border-radius: 10px;
+        box-shadow: var(--box-shadow-30);
       }
     }
   }
