@@ -3,6 +3,7 @@ import s from './Contacts.module.scss';
 import {TitleCustom} from '../../common/com-components/TitleCustom/TitleCustom';
 import {useAppDispatch, useAppSelector} from "../../store/store";
 import {ContactForm} from "./ContactForm";
+const Fade = require("react-reveal/Fade");
 
 export const Contacts = () => {
 
@@ -13,7 +14,9 @@ export const Contacts = () => {
     <div id={'Contacts'} className={s.contactsContainer}>
       <TitleCustom title={'Contacts'} costumeStyle={s.title}/>
       <div className={s.contactsItem}>
-        <ContactForm/>
+        <Fade bottom>
+          <ContactForm/>
+        </Fade>
       </div>
     </div>
   );
