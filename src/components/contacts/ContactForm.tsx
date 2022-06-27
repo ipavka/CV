@@ -1,10 +1,17 @@
-import React, {useState} from 'react';
+import React, {useEffect} from 'react';
 import s from "./Contacts.module.scss";
 import {InputText} from "../../common/com-components/InputText/InputText";
 import {useFormik} from "formik";
 import {Button} from "../../common/com-components/Button/Button";
+import {useAppDispatch, useAppSelector} from "../../store/store";
+import {
+  sendDataTC,
+  SendingTypes,
+  setInfoSendingAC,
+} from "../../store/form-reducer";
 
-type FormikErrorType = {
+
+export type FormType = {
   name?: string
   email?: string
   textarea?: string
@@ -12,7 +19,18 @@ type FormikErrorType = {
 
 export const ContactForm = () => {
 
-  const [data, setData] = useState<any>(null);
+  const dispatch = useAppDispatch();
+  const {infoSending, isLoading} = useAppSelector(state => state.form);
+
+  useEffect(() => {
+    const id: number = +setTimeout(() => {
+      dispatch(setInfoSendingAC(SendingTypes.empty));
+    }, 20000)
+
+    return () => {
+      clearTimeout(id);
+    };
+  }, [infoSending])
 
   const formik = useFormik({
 
@@ -22,7 +40,7 @@ export const ContactForm = () => {
       textarea: '',
     },
     validate: (values) => {
-      const errors: FormikErrorType = {};
+      const errors: FormType = {};
 
       if (!values.name) {
         errors.name = 'Name is required'
@@ -46,7 +64,7 @@ export const ContactForm = () => {
     },
 
     onSubmit: values => {
-      setData(values)
+      dispatch(sendDataTC(values))
       formik.resetForm();
     },
   });
@@ -79,11 +97,9 @@ export const ContactForm = () => {
         </div>
         <div className={s.buttonBlock}>
           <div className={s.infoDiv}>
-            <pre>{JSON.stringify(data, null, 2)}</pre>
-            {/*Thank you for your message, I will definitely answer you (:*/}
+            {infoSending && infoSending}
           </div>
-          {/*<Button onClick={sendHandler} isSpinner={isLoading}>Send</Button>*/}
-          <Button type="submit">Send</Button>
+          <Button type={'submit'} isSpinner={isLoading}>Send</Button>
         </div>
       </form>
     </>
