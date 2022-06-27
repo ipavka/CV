@@ -46,7 +46,7 @@ export const Main = () => {
         </div>
         <div className={s.bioItem}>
           <img src="/CV/img/email_1.png" alt="email"/>
-          <a href="https://mail.google.com" target="_blank">ipavka@ya.ru</a>
+          <a href="mailto:ipavka@ya.ru" target="_blank">ipavka@ya.ru</a>
         </div>
         <div className={s.bioItem}>
           <img src="/CV/img/github_2.png" alt="gitHub"/>

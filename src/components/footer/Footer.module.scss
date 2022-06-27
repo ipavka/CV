@@ -2,7 +2,6 @@
 
 .footerContainer {
   height: 200px;
-  margin-bottom: 100px;
   justify-content: space-evenly;
 
   .footerItems {
@@ -21,10 +20,13 @@
 
     .bioLink {
       display: flex;
-      width: 40%;
+      width: 50%;
       justify-content: space-around;
       align-items: center;
       height: 50px;
+      @media (max-width: 600px) {
+        width: 80%
+      }
       a {
         height: 40px;
         width: 40px;

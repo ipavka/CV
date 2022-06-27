@@ -19,7 +19,7 @@ export const Footer = () => {
           <div className={s.bioLink}>
             <a href="https://t.me/ipavka" target="_blank"
                style={{backgroundImage: `url(${telegramImg})`}}/>
-            <a href="https://mail.google.com" target="_blank"
+            <a href="mailto:ipavka@ya.ru" target="_blank"
                style={{backgroundImage: `url(${email})`}}/>
             <a href="https://github.com/i-pavka" target="_blank"
                style={{backgroundImage: `url(${gitHub})`}}/>
