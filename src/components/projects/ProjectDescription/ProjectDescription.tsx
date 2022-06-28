@@ -21,7 +21,7 @@ export const ProjectDescription = () => {
         <div className={s.imgBlock}>
           <img src={projectItem?.imgUrl} alt='social_network'/>
           <h1 className={s.descriptionHeader}>
-            Project Description Project <br/> Description
+            {projectItem?.descriptionHeader} <br/> {projectItem?.header}
           </h1>
         </div>
       <div className={s.textInfoBlock}>

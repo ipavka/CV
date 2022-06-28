@@ -20,6 +20,14 @@
   color: var(--color-paragraph);
 }
 
+.ulList li {
+  padding-bottom: 5px;
+}
+li::marker {
+  color: var(--color-accent);
+  font-size: 18px;
+}
+
 .aboutContent h3 {
   max-width: 650px;
   font-size: 18px;
@@ -31,6 +39,7 @@
   width: 100%;
   margin-top: 15px;
   display: inline-flex;
+
   .link {
     display: flex;
     border: none;
@@ -50,6 +59,7 @@
       font-size: 14px;
       width: 80%;
     }
+
     &::after {
       content: '';
       position: absolute;
@@ -61,8 +71,10 @@
       background: var(--color-accent);
       transition: all 0.2s ease-in-out;
     }
+
     &:hover {
       color: var(--color-heading);
+
       &::after {
         width: 50%;
         height: 110%;

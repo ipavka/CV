@@ -10,11 +10,12 @@ export const projectsData = [
     gitHubUrl: 'https://github.com/ipavka/ToDo_List',
     projectLinkUrl: 'https://github.com/ipavka/ToDo_List',
     header: 'ToDo List',
+    descriptionHeader: 'SPA React Redux TypeScript',
     title: 'todo',
     backImg: {backgroundImage: `url(${todoImage})`},
     description: 'React, Redux, TypeScript, JavaScript',
-    detailed: 'ToDo List. Сайт для управления списками дел/задач, есть возможность добавлять, редактировать,' +
-      ' менять статус, сортировать, удалять. P.S. Проект на стадии разработки.'
+    detailed: 'Сайт для управления списками дел/задач, есть возможность добавлять, редактировать,' +
+      ' менять статус, сортировать, удалять. Проект на стадии разработки.'
   },
   {
     id: uId(),
@@ -22,11 +23,12 @@ export const projectsData = [
     gitHubUrl: 'https://github.com/ipavka/samuraiWay_1.0',
     projectLinkUrl: 'https://github.com/ipavka/samuraiWay_1.0',
     header: 'Social Network',
+    descriptionHeader: 'SPA React Redux TypeScript',
     title: 'network',
     backImg: {backgroundImage: `url(${socialNet})`},
     description: 'React, Redux, TypeScript, JavaScript',
-    detailed: 'Социальная сеть. Социальная сеть, работает на открытой API. На данный момент реализована возможность' +
+    detailed: 'Социальная сеть, работает на открытой API. На данный момент реализована возможность' +
       ' просматривать список пользователей, подписываться и отписываться от любого пользователя, просматривать любой' +
-      ' профиль пользователя. P.S. Проект на стадии разработки.'
+      ' профиль пользователя. Проект на стадии разработки.'
   },
 ]

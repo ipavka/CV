@@ -13,15 +13,37 @@ export const About = () => {
         <TitleCustom title={'About'} costumeStyle={s.aboutTitle}/>
         <div className={s.aboutContent}>
           <h3>
-            I am a Frontend developer. I have experience developing a SPA application with a dynamic interface using
-            React, TypeScript, JavaScript, Redux. I would like to find a permanent job in a company with a modern
-            approach
-            to development and a friendly team. There is also an interest in studying Backend technologies in languages
-            such as node.js, python
+            <ul className={s.ulList}>
+              <li>
+                Бизнес-ориентированность, клиентоориентированность, понимание приоритетов (важных на данный момент
+                задач)
+                бизнеса и первоочередность процессов.
+              </li>
+              <li>
+                Умение общаться, договариваться, знакомится и находить подход к разным людям, работать в больших и малых
+                коллективах.
+              </li>
+              <li>
+                Умение находить решение из разных и очень интересных, забавных, сложных сложившихся ситуаций связных с
+                рабочими процессами, людьми(сотрудниками, партнерами, клиентами).
+              </li>
+              <li>
+                Адекватная реакция на конструктивную критику.
+              </li>
+              <li>
+                Всегда есть желание, время и интерес к новым знаниям, навыкам, технологиям.
+              </li>
+              <li>
+                Есть опыт руководства, делегирования, обучения.
+              </li>
+              <li>
+                Знание Английского языка на уровне чтения и понимания тех. документации.
+              </li>
+            </ul>
           </h3>
           <div className={s.blockLinks}>
             <NavLink to={PATH.PROJECTS} className={s.link}>
-              Project
+              Projects
             </NavLink>
             <NavLink to={PATH.SKILLS} className={s.link}>
               Skills

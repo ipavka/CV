@@ -18,7 +18,7 @@ export const Project: React.FC<ProjectPropsType> = props => {
   return (
     <div className={s.projectBlock}>
       <div className={s.urlProjectContent} style={props.backImg}>
-        <a className={s.viewBtn} href={props.imgUrl} target="_blank">Watch</a>
+        <NavLink to={PATH.PROJECTS + props.title} className={s.viewBtn}>more</NavLink>
       </div>
       <NavLink to={PATH.PROJECTS + props.title} className={s.descriptionLink}>
         <TitleCustom hLevel={2} title={props.header} costumeStyle={s.title}/>
