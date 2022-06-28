@@ -15,7 +15,7 @@ export const Projects = () => {
         <div className={sItem.item}>
           {projectsData.map(el => {
             return <Project key={el.id}
-                            id={el.id}
+                            title={el.title}
                             imgUrl={el.imgUrl}
                             gitHubUrl={el.gitHubUrl}
                             projectLinkUrl={el.projectLinkUrl}

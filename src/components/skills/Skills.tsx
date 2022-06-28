@@ -5,7 +5,7 @@ import {TitleCustom} from '../../common/com-components/TitleCustom/TitleCustom';
 import {uId} from "../../utils/config";
 const Fade = require("react-reveal/Fade");
 
-const skills = [
+const skills = [ // ToDo: move to another file "skillsData.ts"
   {
     id: uId(),
     url: '/CV/img/js.png',

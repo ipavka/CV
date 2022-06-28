@@ -1,0 +1,15 @@
+.linkBlock {
+  display: flex;
+  height: 100%;
+  justify-content: space-evenly;
+  margin-top: 5px;
+  & img {
+    padding: 5px;
+    height: 25px;
+    cursor: pointer;
+    transition: transform .2s;
+  }
+  & img:hover {
+    transform: scale(1.3);
+  }
+}
