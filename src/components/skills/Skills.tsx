@@ -2,51 +2,52 @@ import React from 'react';
 import s from './Skills.module.scss';
 import {Skill} from './skill/Skill';
 import {TitleCustom} from '../../common/com-components/TitleCustom/TitleCustom';
+import {uId} from "../../utils/config";
 const Fade = require("react-reveal/Fade");
 
 const skills = [
   {
-    id: 1,
+    id: uId(),
     url: '/CV/img/js.png',
     header: 'JS',
   },
   {
-    id: 2,
+    id: uId(),
     url: '/CV/img/react.png',
     header: 'React',
   },
   {
-    id: 3,
+    id: uId(),
     url: '/CV/img/redux.png',
     header: 'Redux',
   },
   {
-    id: 4,
+    id: uId(),
     url: '/CV/img/type_script.png',
     header: 'TypeScript',
   },
   {
-    id: 5,
+    id: uId(),
     url: '/CV/img/css.png',
     header: 'CSS',
   },
   {
-    id: 6,
+    id: uId(),
     url: '/CV/img/html.svg',
     header: 'HTML',
   },
   {
-    id: 7,
+    id: uId(),
     url: '/CV/img/sass.png',
     header: 'Sass',
   },
   {
-    id: 8,
+    id: uId(),
     url: '/CV/img/node_js.png',
     header: 'Node.js',
   },
   {
-    id: 9,
+    id: uId(),
     url: '/CV/img/mongo.png',
     header: 'mongoDB',
   },

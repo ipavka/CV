@@ -1,15 +1,13 @@
 import axios from "axios";
 import {FormType} from "../components/contacts/ContactForm";
+import {apiConfig} from "../utils/config";
 
-const instance = axios.create({
-  baseURL: "https://formspree.io/f/",
-})
+const {FORM_ENDPOINT_DEV, FORM_ENDPOINT} = apiConfig;
 
-// ToDo: убрать в .env
 export const formsAPI = {
   sendMessage(data: FormType) {
-    // return instance.post(`mvollgzr`, data) // main  ToDo: убрать в .env
-    return instance.post(`xgedbpqd`, data) // dev  ToDo: убрать в .env
+    // return axios.post(`https://formspree.io/f/${FORM_ENDPOINT}`, data)
+    return axios.post(`https://formspree.io/f/${FORM_ENDPOINT_DEV}`, data)
       .then(res => {
         return res.data
       })

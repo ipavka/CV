@@ -2,7 +2,7 @@ import React from 'react';
 import s from './Skill.module.scss';
 
 type SkillPropsType = {
-    id?: number
+    id?: string
     url: string
     header: string
 }

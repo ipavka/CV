@@ -4,9 +4,11 @@ import {Projects} from "../projects/Projects";
 import {Error404} from "../Error404/Error404";
 import {Contacts} from "../contacts/Contacts";
 import {About} from "../about/About";
+import {ProjectDescription} from "../projects/ProjectDescription/ProjectDescription";
 
 export const PATH = {
   PROJECTS: "/projects",
+  PROJECT_DESCRIPTION: "/project-description/",
   SKILLS: "/skills",
   CONTACTS: "/contacts",
   ABOUT: "/about",
@@ -19,6 +21,7 @@ export const Pages = () => {
       <Route path={"/"} element={<Navigate to={PATH.PROJECTS}/>}/>
       <Route path={PATH.SKILLS} element={<Skills/>}/>
       <Route path={PATH.PROJECTS} element={<Projects/>}/>
+      <Route path={PATH.PROJECT_DESCRIPTION + ':id'} element={<ProjectDescription/>}/>
       <Route path={PATH.CONTACTS} element={<Contacts/>}/>
       <Route path={PATH.ABOUT} element={<About/>}/>
       <Route path={PATH.ERROR404} element={<Error404/>}/>
