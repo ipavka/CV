@@ -100,9 +100,13 @@
 
   .descriptionLink {
     display: flex;
-    justify-content: end;
-    width: 90%;
+    justify-content: center;
+    width: 100%;
     margin: 0 0 15px 0;
+    .linkBlock {
+      justify-content: center;
+      gap: 35px;
+    }
   }
 
 }

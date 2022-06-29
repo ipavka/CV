@@ -4,11 +4,16 @@ import s from './LinkBlock.module.scss'
 type LinkBlockType = {
   gitHubUrl: string | undefined
   projectLinkUrl: string | undefined
+  costumeStyle?: string
 }
 
-export const LinkBlock: React.FC<LinkBlockType> = ({gitHubUrl, projectLinkUrl}) => {
+export const LinkBlock: React.FC<LinkBlockType> = (
+  {gitHubUrl, projectLinkUrl, costumeStyle}) => {
+
+  const finalStyle = `${s.linkBlock} ${costumeStyle ? costumeStyle : ''}`
+
   return (
-    <div className={s.linkBlock}>
+    <div className={finalStyle}>
       <a href={gitHubUrl} target="_blank">
         <img src='/CV/img/github_2.png' alt='github'/>
       </a>

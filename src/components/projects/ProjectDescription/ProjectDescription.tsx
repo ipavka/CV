@@ -29,6 +29,7 @@ export const ProjectDescription = () => {
       </div>
       <div className={s.descriptionLink}>
         <LinkBlock gitHubUrl={projectItem?.gitHubUrl}
+                   costumeStyle={s.linkBlock}
                    projectLinkUrl={projectItem?.projectLinkUrl}/>
       </div>
     </div>
