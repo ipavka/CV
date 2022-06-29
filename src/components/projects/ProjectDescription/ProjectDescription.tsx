@@ -19,7 +19,7 @@ export const ProjectDescription = () => {
           Back
         </NavLink>
         <div className={s.imgBlock}>
-          <img src={projectItem?.imgUrl} alt='social_network'/>
+          <img src={projectItem?.imgUrl} alt='project_image'/>
           <h1 className={s.descriptionHeader}>
             {projectItem?.descriptionHeader} <br/> {projectItem?.header}
           </h1>
