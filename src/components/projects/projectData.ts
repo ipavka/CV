@@ -12,8 +12,8 @@ export const projectsData = [
   {
     id: uId(),
     imgUrl: todoImage,
-    gitHubUrl: 'https://github.com/ipavka/ToDo_List',
-    projectLinkUrl: 'https://github.com/ipavka/ToDo_List',
+    gitHubUrl: 'https://github.com/i-pavka/ToDoList',
+    projectLinkUrl: 'https://i-pavka.github.io/ToDoList',
     header: 'ToDo List',
     descriptionHeader: 'SPA React Redux TypeScript',
     title: 'todo',
@@ -39,8 +39,8 @@ export const projectsData = [
   {
     id: uId(),
     imgUrl: cards,
-    gitHubUrl: 'https://github.com/ipavka/samuraiWay_1.0',
-    projectLinkUrl: 'https://github.com/ipavka/samuraiWay_1.0',
+    gitHubUrl: 'https://github.com/i-pavka/StudyCards',
+    projectLinkUrl: 'https://i-pavka.github.io/StudyCards/',
     header: 'Study Cards',
     descriptionHeader: 'SPA React Redux TypeScript',
     title: 'cards',
