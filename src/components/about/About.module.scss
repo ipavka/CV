@@ -18,12 +18,36 @@
   padding: 20px;
   min-height: 150px;
   color: var(--color-paragraph);
+
+  .aboutSkills {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    letter-spacing: 0.7px;
+    margin: 15px 0 10px 0;
+    & li {
+      margin-left: 6px;
+    }
+    .customAboutSkills {
+      margin-bottom: 10px;
+      &:before {
+        width: 50%;
+        bottom: -4px;
+      }
+      @media (max-width: 500px){
+        display: initial;
+      }
+    }
+  }
 }
 
 .ulList li {
   padding-bottom: 5px;
   margin-left: 6px;
 }
+
 li::marker {
   color: var(--color-accent);
   font-size: 18px;

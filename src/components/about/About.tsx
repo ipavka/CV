@@ -13,6 +13,24 @@ export const About = () => {
         <TitleCustom title={'About'} costumeStyle={s.aboutTitle}/>
         <div className={s.aboutContent}>
           <h3>
+            Разрабатываю SPA приложения с использованием React, TypeScript, JavaScript, Redux. Хочу найти
+            постоянную работу в компании с современным подходом в разработке и возможностью профессионального роста.
+            Также есть интерес к backend на node.js или python.
+          </h3>
+          <div className={s.aboutSkills}>
+            <TitleCustom title={'Ключевые навыки'} hLevel={2} costumeStyle={s.customAboutSkills}/>
+            <h3>
+              <ul>
+                <li>
+                  React, Redux, TypeScript, JavaScript, HTML, CSS
+                </li>
+              </ul>
+            </h3>
+          </div>
+          <div className={s.aboutSkills}>
+            <TitleCustom title={'О себе'} hLevel={2} costumeStyle={s.customAboutSkills}/>
+          </div>
+          <h3>
             <ul className={s.ulList}>
               <li>
                 Бизнес-ориентированность, клиентоориентированность, понимание приоритетов (важных на данный момент
