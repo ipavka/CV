@@ -50,7 +50,7 @@ export const Main = () => {
         </div>
         <div className={s.bioItem}>
           <img src="/CV/img/github_2.png" alt="gitHub"/>
-          <a href="#" target="_blank">GitHub</a>
+          <a href="https://github.com/i-pavka" target="_blank">GitHub</a>
         </div>
 
       </div>

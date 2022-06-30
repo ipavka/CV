@@ -28,7 +28,7 @@ export const About = () => {
             </h3>
           </div>
           <div className={s.aboutSkills}>
-            <TitleCustom title={'О себе'} hLevel={2} costumeStyle={s.customAboutSkills}/>
+            <TitleCustom title={'Обо мне'} hLevel={2} costumeStyle={s.customAboutSkills}/>
           </div>
           <h3>
             <ul className={s.ulList}>
