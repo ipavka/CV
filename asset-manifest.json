@@ -1,22 +1,26 @@
 {
   "files": {
-    "main.css": "/CV/static/css/main.23f76e76.css",
-    "main.js": "/CV/static/js/main.b132a517.js",
+    "main.css": "/CV/static/css/main.618de5dc.css",
+    "main.js": "/CV/static/js/main.fb281645.js",
     "static/js/787.dc9ee2bf.chunk.js": "/CV/static/js/787.dc9ee2bf.chunk.js",
     "static/media/todo_list.png": "/CV/static/media/todo_list.96c5cc15b5d9a6c37531.png",
     "static/media/cards.png": "/CV/static/media/cards.93fdd26257e2e43ac2d6.png",
     "static/media/social_network.png": "/CV/static/media/social_network.f6c7fd6bccf4281844e2.png",
+    "static/media/bin_searh_1.png": "/CV/static/media/bin_searh_1.68e8ec240ed3514f8462.png",
+    "static/media/financial_control_1.png": "/CV/static/media/financial_control_1.42226d7d76334bb73694.png",
     "static/media/email_1.png": "/CV/static/media/email_1.f66926fafc37ca6fdd2c.png",
+    "static/media/financial_control_2.png": "/CV/static/media/financial_control_2.3434dab1dabba28db06f.png",
     "static/media/codewars_yellow.png": "/CV/static/media/codewars_yellow.5020f3fa712c23d86865.png",
     "static/media/github_2.png": "/CV/static/media/github_2.8bae1a2489cc5c3cfa1f.png",
+    "static/media/bin_searh_2.png": "/CV/static/media/bin_searh_2.46f947815d94ba2d9fb2.png",
     "static/media/telegram.png": "/CV/static/media/telegram.a28ccc23fb8b02a97edb.png",
     "index.html": "/CV/index.html",
-    "main.23f76e76.css.map": "/CV/static/css/main.23f76e76.css.map",
-    "main.b132a517.js.map": "/CV/static/js/main.b132a517.js.map",
+    "main.618de5dc.css.map": "/CV/static/css/main.618de5dc.css.map",
+    "main.fb281645.js.map": "/CV/static/js/main.fb281645.js.map",
     "787.dc9ee2bf.chunk.js.map": "/CV/static/js/787.dc9ee2bf.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.23f76e76.css",
-    "static/js/main.b132a517.js"
+    "static/css/main.618de5dc.css",
+    "static/js/main.fb281645.js"
   ]
 }
