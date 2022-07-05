@@ -25,21 +25,6 @@ export const projectsData = [
   },
   {
     id: uId(),
-    imgUrl: socialNet,
-    gitHubUrl: 'https://github.com/ipavka/samuraiWay_1.0',
-    projectLinkUrl: 'https://github.com/ipavka/samuraiWay_1.0',
-    header: 'Social Network',
-    descriptionHeader: 'SPA React Redux TypeScript',
-    title: 'network',
-    backImg: {backgroundImage: `url(${socialNet})`},
-    description: 'React, Redux, TypeScript, JavaScript',
-    detailed: `Социальная сеть, работает на открытой API. На данный момент реализована возможность просматривать список
-     пользователей, подписываться и отписываться от любого пользователя, просматривать любой профиль пользователя.
-     Все данные хранятся на сервере, взаимодействие с сервером по REST API.
-      Проект на стадии разработки.`
-  },
-  {
-    id: uId(),
     imgUrl: cards,
     gitHubUrl: 'https://github.com/i-pavka/StudyCards',
     projectLinkUrl: 'https://i-pavka.github.io/StudyCards/',
@@ -54,6 +39,21 @@ export const projectsData = [
        сброс пароля, добавление, редактирование карточек, просмотр карточек других пользователей, фильтрация, 
        сортировка, поиск. Все данные хранятся на сервере, взаимодействие с сервером по REST API. 
        Проект разрабатывался совместно в команде.`
+  },
+  {
+    id: uId(),
+    imgUrl: socialNet,
+    gitHubUrl: 'https://github.com/ipavka/samuraiWay_1.0',
+    projectLinkUrl: 'https://github.com/ipavka/samuraiWay_1.0',
+    header: 'Social Network',
+    descriptionHeader: 'SPA React Redux TypeScript',
+    title: 'network',
+    backImg: {backgroundImage: `url(${socialNet})`},
+    description: 'React, Redux, TypeScript, JavaScript',
+    detailed: `Социальная сеть, работает на открытой API. На данный момент реализована возможность просматривать список
+     пользователей, подписываться и отписываться от любого пользователя, просматривать любой профиль пользователя.
+     Все данные хранятся на сервере, взаимодействие с сервером по REST API.
+      Проект на стадии разработки.`
   },
   {
     id: uId(),
