@@ -43,8 +43,8 @@ export const projectsData = [
   {
     id: uId(),
     imgUrl: socialNet,
-    gitHubUrl: 'https://github.com/ipavka/samuraiWay_1.0',
-    projectLinkUrl: 'https://github.com/ipavka/samuraiWay_1.0',
+    gitHubUrl: 'https://github.com/i-pavka/SocialNetwork',
+    projectLinkUrl: 'https://i-pavka.github.io/SocialNetwork',
     header: 'Social Network',
     descriptionHeader: 'SPA React Redux TypeScript',
     title: 'network',
