@@ -4,11 +4,26 @@ import socialNet from "../../assets/image/social_network.png";
 import cards from "../../assets/image/cards.png";
 import binSearch from "../../assets/image/bin_searh_2.png";
 import binSearchMain from "../../assets/image/bin_searh_1.png";
+import exchangeRate from "../../assets/image/exchangeRate.png";
 import financialControl from "../../assets/image/financial_control_1.png";
 import financialControlMain from "../../assets/image/financial_control_2.png";
 
 
 export const projectsData = [
+  {
+    id: uId(),
+    imgUrl: exchangeRate,
+    gitHubUrl: 'https://github.com/i-pavka/exchangeRate',
+    projectLinkUrl: 'https://i-pavka.github.io/exchangeRate',
+    header: 'Exchange Rate',
+    descriptionHeader: 'SPA React Redux TypeScript',
+    title: 'exchangeRate',
+    backImg: {backgroundImage: `url(${exchangeRate})`},
+    description: 'React, Redux-Toolkit, Redux-Saga, TypeScript, JavaScript',
+    detailed: `Конвертер валют. Курсы валют из открытого API (https://apilayer.com/marketplace/exchangerates_data-api).
+    Отображает актуальный курс относительно базовой валюты. Базовую валюту можно изменить. Так же можно конвертировать 
+    из одной валюты  в другую.`
+  },
   {
     id: uId(),
     imgUrl: todoImage,
